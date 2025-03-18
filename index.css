@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Formulario */
+
+.formulario{
+    background-color: rgb(255, 255, 255, 0.5);
+    position:absolute;
+    height: 450px;
+    width: 500px;
+    margin-left: 680px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label{
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 80%;
+    height: 25px;
+    color: black;
+    padding-left: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+button{
+    margin-top: 40px;
+    margin-left: 200px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: rgb(182, 177, 177);
+    font-weight: bold;
+}
